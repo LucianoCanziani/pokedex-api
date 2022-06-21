@@ -70,7 +70,7 @@ const PokemonDetailContainer = () => {
   }, [screenWidth]);
 
   return (
-    <>
+    <div className="detail-pokemon-container">
       {screenWidth < maxWidth ? (
         <PokemonDetailMobile
           pokemondetail={pokemonDetails}
@@ -82,7 +82,7 @@ const PokemonDetailContainer = () => {
           pokemonespecies={pokemonSpecies}
         />
       )}
-    </>
+    </div>
   );
 };
 

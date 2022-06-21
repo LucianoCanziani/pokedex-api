@@ -30,7 +30,6 @@ const NavBar = ({
             className="search-input"
             id="searchFilter"
             type="text"
-            style="overflow: visible;"
             placeholder="Pokemon search..."
             onChange={(event) => searchFilterFunction(event.target.value)}
             onClick={() => callMySound(SoundSrc)}
@@ -39,7 +38,6 @@ const NavBar = ({
 
         <div className="box">
           <select
-            style="overflow: visible;"
             className="decoration"
             id="typeFilter"
             onChange={(event) => typeFilterFunction(event.target.value)}

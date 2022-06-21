@@ -1,11 +1,9 @@
 * {
-  font-family: "PokemonLight";
   margin: 0px;
   padding: 0px;
   box-sizing: inherit;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
@@ -46,20 +44,12 @@
 }
 
 body {
-  background: url("./assets/items/pokeball-patternblack.png") top left repeat;
-  background-attachment: fixed;
-  background-position: top left;
-  background-size: 850px;
   color: #000;
   margin: 0px;
   padding: 0px;
-  font-family: "PokemonLight";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: "PokemonLight";
+  background: url("./assets/items/pokeball-pattern.png") top left repeat;
+  background-attachment: fixed;
+  background-size: 900px;
 }
 
 .start-menu {
@@ -484,7 +474,7 @@ svg {
 .filters {
   display: flex;
   justify-content: flex-end;
-  /* align-items: center; */
+  align-items: center;
   width: 100%;
 }
 
@@ -498,7 +488,6 @@ input[type=text] {
   border: none;
   border-radius: 50px;
   font-size: 19px;
-  font-family: "PokemonLight";
   color: #fff;
   background-color: rgba(255, 255, 255, 0);
   background-image: url('./assets/items/searchBtn.png');
@@ -525,7 +514,6 @@ input::placeholder {
 
 .search-input {
   color: #fff;
-  font-family: "PokemonLight";
   overflow: visible;
 }
 
@@ -533,7 +521,6 @@ input::placeholder {
   background-color: #b10000;
   color: white;
   font-size: 19px;
-  font-family: "PokemonLight";
   padding: 12px;
   width: 200px;
   border: none;
@@ -566,6 +553,10 @@ select[open] summary:before {
 
 .option-type {
   overflow: visible;
+}
+
+.detail-pokemon-container {
+  font-family: "PokemonLight";
 }
 
 .thumb-container {
@@ -620,6 +611,7 @@ select[open] summary:before {
 }
 
 .pokemon-type-container {
+  font-family: "PokemonLight";
   padding: 5px 15px;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.3);
@@ -965,6 +957,11 @@ progress::-webkit-progress-bar {
   text-align: center;
 }
 
+.lazy-load-image-background {
+  display: flex !important;
+  align-items: center !important;
+}
+
 .detail-pokemon img {
   margin: 5% 0%;
 }
@@ -1160,6 +1157,7 @@ progress::-webkit-progress-bar {
     flex-direction: column;
   }
 
+
   .filters {
     justify-content: center;
     align-items: stretch;
@@ -1167,11 +1165,9 @@ progress::-webkit-progress-bar {
 
   input[type=text] {
     width: 20px;
-
     border: none;
     border-radius: 50px;
-    font-size: 19px;
-    font-family: "PokemonLight";
+    font-size: 16px;
     color: #fff;
     background-color: rgba(255, 255, 255, 0);
     background-image: url('./assets/items/searchBtn.png');
@@ -1187,7 +1183,7 @@ progress::-webkit-progress-bar {
   }
 
   input::placeholder {
-    font-size: 19px;
+    font-size: 16px;
     padding-left: 0.7px;
     color: rgb(253, 253, 253);
     opacity: 1;
@@ -1203,8 +1199,7 @@ progress::-webkit-progress-bar {
   .box select {
     background-color: #b10000;
     color: white;
-    font-size: 19px;
-    font-family: "PokemonLight";
+    font-size: 16px;
     padding: 12px;
     width: 140px;
     border: none;
@@ -1296,7 +1291,7 @@ progress::-webkit-progress-bar {
     align-items: center;
     margin-bottom: 5px;
     justify-content: space-around;
-    align-content: stretch;
+    align-content: center;
   }
 
   .pokemon-type-container-detail {
