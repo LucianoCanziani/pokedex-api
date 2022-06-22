@@ -27,20 +27,16 @@ Link: https://pokeapi.co/
 
 ## GitHub 
 
-Repository Link: 
+Repository Link: https://github.com/LucianoCanziani/pokedex-api
 
 ## Deploy Netlify
 
-Deploy Link: 
+Deploy Link: https://pokedex-luciano-canziani.netlify.app/
 
 ## How to Use:
 1. Press the start button to enter the pokedex.
 2. Browse through the Pokedex and filter the Pokemons by type and name and select your favourite pokemon to learn more about it.
 3. Pokemon detail: in there you will see more information about that pokemon.
-
-## GitHub 
-
-Repository Link: https://github.com/LucianoCanziani/pokedex-api
 
 ## Deploy Netlify
 
@@ -73,7 +69,7 @@ https://user-images.githubusercontent.com/96893895/174805910-dd2bdc2e-4caf-46f0-
    
 6. Clone the project on your PC. On the command line, run the following command: 
    
-   **gh repo clone https://github.com/LucianoCanziani/fabrica-de-empanadas.git**
+   **gh repo clone https://github.com/LucianoCanziani/pokedex-api.git**
    
 7. Install the necessary repository dependencies. On the command line, run the following command:
 
