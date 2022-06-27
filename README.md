@@ -38,11 +38,6 @@ Deploy Link: https://pokedex-luciano-canziani.netlify.app/
 2. Browse through the Pokedex and filter the Pokemons by type and name and select your favourite pokemon to learn more about it.
 3. Pokemon detail: in there you will see more information about that pokemon.
 
-## Deploy Netlify
-
-Deploy Link: [https://fabricadeempanadas.netlify.app/](https://pokedex-luciano-canziani.netlify.app/)
-
-
 ## Installation Process From Scratch (see notes below):
    *Please keep in mind that, in case that you've already have installed and configured Node.js, GitHub CLI and NPM, you should then **skip steps 1-5** and start from step number 6.*
    
