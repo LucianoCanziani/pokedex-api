@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/96893895/174805910-dd2bdc2e-4caf-46f0-
 
 # Pokedex Api
 
-The Famous Pokedex from from the Pokemon Api.
+The Famous Pokedex using the Pokemon Api.
 
 ## things I learn in this Project:
 
