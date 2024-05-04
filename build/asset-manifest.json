@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5857a797.css",
+    "main.js": "/static/js/main.23882870.js",
+    "static/js/453.ac4c0547.chunk.js": "/static/js/453.ac4c0547.chunk.js",
+    "static/media/mainTheme.mp3": "/static/media/mainTheme.16df1d3afa04f0053b64.mp3",
+    "static/media/loading.gif": "/static/media/loading.94cd27f15ba689bca6b0.gif",
+    "static/media/history_icon.png": "/static/media/history_icon.be4828fd3320764fe190.png",
+    "static/media/searchBtn.png": "/static/media/searchBtn.9d90f7710b77878e7b2c.png",
+    "static/media/Pokemon-DP.ttf": "/static/media/Pokemon-DP.3c51bed835077be953f9.ttf",
+    "static/media/Pokemon-DP-Bold.ttf": "/static/media/Pokemon-DP-Bold.42b186de71bba3d02e66.ttf",
+    "static/media/pokeball-pattern.png": "/static/media/pokeball-pattern.7978378fd76a5890c724.png",
+    "static/media/close.png": "/static/media/close.b9824e8587cdca8dae21.png",
+    "static/media/pokedex.png": "/static/media/pokedex.2800773d39069d735ecd.png",
+    "static/media/select.mp3": "/static/media/select.8cb7dbfcee4dddb62ce3.mp3",
+    "index.html": "/index.html",
+    "main.5857a797.css.map": "/static/css/main.5857a797.css.map",
+    "main.23882870.js.map": "/static/js/main.23882870.js.map",
+    "453.ac4c0547.chunk.js.map": "/static/js/453.ac4c0547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5857a797.css",
+    "static/js/main.23882870.js"
+  ]
+}
