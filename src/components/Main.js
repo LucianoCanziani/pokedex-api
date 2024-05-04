@@ -23,25 +23,26 @@ const Main = () => {
       });
   }, []);
 
-    if (loading) {
-      return (
-        <div className="loading">
-          <img src={require("../assets/items/loading.gif")} alt="loading" />
-        </div>
-      );
-    }
-
+  if (loading) {
     return (
-      <div className="main">
-        <Routes>
-          <Route path="/" element={<ItemListContainer />} />
-          <Route
-            path="/pokemon/:pokemonName"
-            element={<PokemonDetailContainer />}
-          />
-        </Routes>
+      <div className="loading">
+        <img src={require("../assets/items/loading.gif")} alt="loading" />
       </div>
     );
   }
+
+  return (
+    <div className="main">
+      <Routes>
+        <Route path="/" element={<ItemListContainer />} />
+        <Route
+          path="/pokemon/:pokemonName"
+          element={<PokemonDetailContainer />}
+        />
+        <Route path="/pokemon-history" element={<ItemListContainer historyPage={true} />} />
+      </Routes>
+    </div>
+  );
+}
 
 export default Main;

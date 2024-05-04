@@ -12,6 +12,7 @@ function App() {
     overworld: new Howl({
       src: mainTheme,
       loop: true,
+      volume: 0.09,
     }),
   };
 

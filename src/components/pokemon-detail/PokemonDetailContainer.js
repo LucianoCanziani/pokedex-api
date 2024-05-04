@@ -12,7 +12,24 @@ const PokemonDetailContainer = () => {
   const [pokemonSpecies, setPokemonSpecies] = useState({});
   let [chainInfo, setChainInfo] = useState(null);
 
+  const historyLocalStorage = (pokemon) => {
+    let pokemonsHistory = localStorage.getItem("pokemonsHistory");
+    console.log("pokemonsHistory", pokemonsHistory);
+    if (!pokemonsHistory) {
+      pokemonsHistory = [];
+    } else {
+      pokemonsHistory = JSON.parse(pokemonsHistory);
+    }
+    if (!pokemonsHistory.includes(pokemon)) {
+      pokemonsHistory.push(pokemon);
+    }
+    localStorage.setItem("pokemonsHistory", JSON.stringify(pokemonsHistory));
+  };
+
+
+
   useEffect(() => {
+    historyLocalStorage(pokemonName)
     axios(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`).then((res) => {
       const { data } = res;
       //console.log(data);

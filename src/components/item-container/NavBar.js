@@ -1,12 +1,15 @@
 import logo from "../../assets/items/pokedex.png";
 import { Howl } from "howler";
 import SoundSrc from "../../assets/sounds/select.mp3";
+import { Link, useLocation } from "react-router-dom";
 
 const NavBar = ({
   pokemonsTypes,
   searchFilterFunction,
   typeFilterFunction,
 }) => {
+  const location = useLocation();
+
   const callMySound = (src) => {
     const sound = new Howl({
       src,
@@ -51,6 +54,11 @@ const NavBar = ({
             ))}
           </select>
         </div>
+        {location.pathname.includes("/pokemon-history") ? (
+          <Link onClick={() => callMySound(SoundSrc)} to="/" className="close_icon"></Link>
+        ) : (
+          <Link onClick={() => callMySound(SoundSrc)} to="/pokemon-history" className="history_icon"></Link>
+        )}
       </div>
     </nav>
   );

@@ -1124,6 +1124,40 @@ progress::-webkit-progress-bar {
   height: 102px;
 }
 
+.history_icon {
+  background-image: url('./assets/items/history_icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  background-size: 42px;
+  margin-left: 10px;
+}
+
+.history_icon:active {
+  transform: scale(0.98);
+}
+
+.close_icon {
+  background-image: url('./assets/items/close.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.close_icon:active {
+  transform: scale(0.98);
+}
+
 @media (max-width: 1250px) {
   .pokemon-container {
     width: 100%;
